@@ -1,0 +1,26 @@
+.sample {
+  color: red; }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif; }
+  .card-container .card {
+    width: 50%;
+    margin: 10px auto 0px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #d0d1d5;
+    border-radius: 3px;
+    padding: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+    .card-container .card .vote-button {
+      flex-grow: 1; }
+    .card-container .card .content-sec {
+      flex-grow: 6; }
+      .card-container .card .content-sec .info-sec {
+        display: flex; }
+        .card-container .card .content-sec .info-sec .title {
+          color: #9199a1; }
+        .card-container .card .content-sec .info-sec .value {
+          color: #000; }
